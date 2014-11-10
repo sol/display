@@ -30,3 +30,15 @@ spec = do
     context "when used with Int" $ do
       it "behaves like `fromString . show`" $ do
         display (23 :: Int) `shouldBe` "23"
+
+    context "when used with Integer" $ do
+      it "behaves like `fromString . show`" $ do
+        display (23 :: Integer) `shouldBe` "23"
+
+    context "when used with Float" $ do
+      it "behaves like `fromString . show`" $ do
+        display (23.42 :: Float) `shouldBe` "23.42"
+
+    context "when used with Double" $ do
+      it "behaves like `fromString . show`" $ do
+        display (23.42 :: Double) `shouldBe` "23.42"
