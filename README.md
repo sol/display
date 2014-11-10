@@ -1,1 +1,1 @@
-# Convert Haskell values to a textual representation
+Convert Haskell values to a textual representation
