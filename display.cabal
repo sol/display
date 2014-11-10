@@ -15,6 +15,7 @@ library
       src
   exposed-modules:
       Data.Display
+      Data.Display.Lazy
   build-depends:
       base == 4.*
     , text
